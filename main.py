@@ -93,4 +93,4 @@ for cardNum in range(1,NUMBER_OF_CARDS_TO_GENERATE+1):
     table.create_table_image(grid, CELL_SIZE,FONT_SIZE,GenerateFilename('output_cards/card','.png'))
 
 END_TIME = time.time()
-print(NUMBER_OF_CARDS_TO_GENERATE, 'cards were generated in', END_TIME-START_TIME, 'seconds.')
+print(NUMBER_OF_CARDS_TO_GENERATE, str(SQUARE_SIZE)+'x'+str(SQUARE_SIZE), 'cards were generated in', END_TIME-START_TIME, 'seconds.')
